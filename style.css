@@ -17,7 +17,6 @@ body{
 }
 
 .top-banner-full h1{
-    padding-op: 200px;
     font-size: 60px;
     font-weight: 900;
     line-height: 70px;
@@ -33,4 +32,47 @@ body{
     padding: 15px 30px;
     color: white;
     border-radius: 5px;
+}
+
+.donate-today{
+    margin: 0 auto;
+}
+
+.donate-text{
+    text-align: center;
+}
+
+.donate-text h1{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.donate-amount-options{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+ 
+}
+
+.donate-amount a{
+    background-color: rgb(233, 233, 233);
+    text-decoration: none;
+    padding: 33px 15px 30px 15px;
+    color: rgb(54, 54, 54);
+    font-size: 25px;
+    font-weight: 700;
+    border-radius: 5px;
+    margin: 0px 10px 0px 10px;   
+}
+
+.donate-amount-selected a{
+    background-color: rgb(255, 230, 220);
+    text-decoration: none;
+    padding: 33px 15px 30px 15px;
+    color: orangered;
+    font-size: 25px;
+    font-weight: 700;
+    border-radius: 5px;
+    border: 2px solid orangered;
+    margin: 0px 10px 0px 10px;   
 }
