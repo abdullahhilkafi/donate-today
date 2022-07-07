@@ -40,6 +40,7 @@ body{
 
 .donate-text{
     text-align: center;
+    margin-top: 100px;
 }
 
 .donate-text h1{
@@ -81,11 +82,16 @@ body{
     display: flex;
     justify-content: center;
     margin-top: 80px;
-    border-bottom: 2px solid grey;
+    border-bottom: 1px solid grey;
+    border-width: thin;
+    margin-left: 350px;
+    margin-right: 350px;
+
 }
 
 .donate-plan-text{
     text-align: center;
+    margin-top: 100px;
 }
 
 .donate-plan-text h1{
@@ -138,6 +144,7 @@ body{
 
 .bonus-text{
     text-align: center;
+    margin-top: 100px;
 } 
 
 .bonus-text h1{
@@ -147,6 +154,7 @@ body{
 
 .updates-text{
     text-align: center;
+    margin-top: 100px;
 }
 
 .updates-text h1{
@@ -159,12 +167,33 @@ body{
     display: flex;
     justify-content: center;
     background-color: #FFF4D6;
-    max-width: 50%;
+    background-size: 50% auto;
     padding: 40px 50px;
+    width: 50%;
+    margin-left: 300px;
 
 }
 
+input[type=text]{
+    height: 30px;
+    border: none;
+    background-color: white;
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+input[type=button]{
+    background-color: orangered;
+    border: none;
+    padding: 10px 20px;
+    font-size: 15px;
+    color: white;
+    border-radius: 0px 5px 5px 0px;
+}
+
 footer{
+    margin-top: 150px;
     text-align: center;
     background-color: black;
     padding: 30px 30px;
