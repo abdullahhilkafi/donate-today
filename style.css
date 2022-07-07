@@ -76,3 +76,62 @@ body{
     border: 2px solid orangered;
     margin: 0px 10px 0px 10px;   
 }
+
+.input{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    border-bottom: 2px solid grey;
+}
+
+.donate-plan-text{
+    text-align: center;
+}
+
+.donate-plan-text h1{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.plan-items{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.item-1{
+    background-color: #EDF5F6;
+    padding: 50px 20px;
+    margin: 15px 10px 15px 200px;
+    border-radius: 5px;
+}
+
+.item-2{
+    background-color: #FFEEEE;
+    padding: 50px 20px;
+    margin: 15px 10px;
+    border-radius: 5px;
+}
+
+.item-3{
+    background-color: #FFF4D6;
+    
+    padding: 50px 20px;
+    margin: 15px 200px 15px 10px;
+    border-radius: 5px;
+}
+
+.item-1 p{
+    font-size: 14px;
+    color: rgb(70, 70, 70);
+}
+
+.item-2 p{
+    font-size: 14px;
+    color: rgb(70, 70, 70);
+}
+
+.item-3 p{
+    font-size: 14px;
+    color: rgb(70, 70, 70);
+}
